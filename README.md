@@ -23,3 +23,13 @@ Download [Git](https://git-scm.com/downloads) and [Node.js](https://nodejs.org/e
     ```
     npm install
     ```
+
+3. **Run the code**
+
+    ```
+    cd app
+    ```
+
+    ```
+    npm run dev
+    ```
