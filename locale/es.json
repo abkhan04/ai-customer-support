@@ -1,0 +1,18 @@
+{
+  "Home": {
+    "elevate": "Eleva tu experiencia con el chatbot",
+    "support": "Atención al cliente con IA",
+    "customizable": "Chatbot de IA totalmente personalizable para tu negocio",
+    "getstarted": "Comenzar"
+  },
+  "Navbar": {
+    "support": "Atención al cliente con IA",
+    "login": "Iniciar sesión",
+    "register": "Registrarse"
+  },
+  "Footer": {
+    "copyright": "Copyright",
+    "and": "y",
+    ",": ","
+  }
+}

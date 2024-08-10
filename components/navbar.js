@@ -6,6 +6,8 @@ import { RiRobot2Line } from "react-icons/ri";
 import Link from "next/link";
 import "/app/globals.css";
 import { usePathname } from "next/navigation";
+import { useTranslations } from 'next-intl';
+import LanguageSwitcher from "./language";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -15,6 +17,7 @@ const Navbar = () => {
   };
   const pathname = usePathname();
   const isDashboard = pathname === "/dashboard";
+  const t = useTranslations('Navbar');
 
   return (isDashboard) ? "" : (
     <nav className="text-white shadow-md">
@@ -23,14 +26,15 @@ const Navbar = () => {
           <Link href="/" className="">
             <RiRobot2Line size={30} className="inline-block mr-3 mb-1 text-sky-500" />
           </Link>
-          AI Customer Support
+          {t("support")}
         </div>
-        <div className="hidden md:flex space-x-6">
-          <a href="/login" className="hover:text-sky-500">
-            Login
+        <div className="hidden md:flex items-center space-x-6">
+          <LanguageSwitcher />
+          <a href="/login" className="hover:text-sky-500 text-md font-bold">
+            {t("login")}
           </a>
-          <a href="/register" className="hover:text-sky-500">
-            Register
+          <a href="/register" className="hover:text-sky-500 text-md font-bold">
+            {t("register")}
           </a>
         </div>
         <div className="md:hidden">

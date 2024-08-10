@@ -1,0 +1,18 @@
+{
+  "Home": {
+    "elevate": "提升您的聊天机器人体验",
+    "support": "AI客户支持",
+    "customizable": "为您的企业量身定制的AI聊天机器人",
+    "getstarted": "开始使用"
+  },
+  "Navbar": {
+    "support": "AI客户支持",
+    "login": "登录",
+    "register": "注册"
+  },
+  "Footer": {
+    "copyright": "Copyright",
+    "and": "",
+    ",": "、"
+  }
+}

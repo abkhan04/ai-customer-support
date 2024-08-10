@@ -1,8 +1,18 @@
 {
   "Home": {
     "elevate": "Elevate your chatbot experience",
-	"support": "AI Customer Support",
-	"customizable": "Fully customizable AI chatbot for your business",
-	"getstarted": "Get Started"
+    "support": "AI Customer Support",
+    "customizable": "Fully customizable AI chatbot for your business",
+    "getstarted": "Get Started"
+  },
+  "Navbar": {
+    "support": "AI Customer Support",
+    "login": "Login",
+    "register": "Register"
+  },
+  "Footer": {
+    "copyright": "Copyright",
+    "and": "and",
+    ",": ","
   }
 }
