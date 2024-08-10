@@ -5,6 +5,7 @@ import { FaBars, FaTimes } from "react-icons/fa";
 import { RiRobot2Line } from "react-icons/ri";
 import Link from "next/link";
 import "/app/globals.css";
+import { usePathname } from "next/navigation";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,8 +13,10 @@ const Navbar = () => {
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
+  const pathname = usePathname();
+  const isDashboard = pathname === "/dashboard";
 
-  return (
+  return (isDashboard) ? "" : (
     <nav className="text-white shadow-md">
       <div className="container mx-auto flex justify-between items-center py-4 px-6">
         <div className="text-lg font-bold">
