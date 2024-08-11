@@ -14,5 +14,33 @@
     "copyright": "Copyright",
     "and": "and",
     ",": ","
+  },
+  "LoginReg": {
+	"login": "Login",
+	"loginbelow": "Login below with your account details",
+	"email": "Email",
+	"password": "Password",
+	"loginemail": "Login with Email",
+	"logingoogle": "Login with Google",
+	"register": "Register",
+	"noacc": "Don't have an account?",
+	"enterinfo": "Enter your information to create an account",
+	"fname": "First Name",
+	"lname": "Last Name",
+	"password": "Password",
+	"regemail": "Register with Email",
+	"reggoogle": "Register with Google",
+	"haveacc": "Already have an account?"
+  },
+  "Dashboard": {
+	"welcome": "Welcome to Chat Support! How can I help you today?",
+    "api": "API",
+	"docu": "Documentation",
+	"settings": "Settings",
+	"help": "Help",
+	"account": "Account",
+    "support": "AI Customer Support",
+	"configure": "Configure the settings for the model and messages."
+	
   }
 }

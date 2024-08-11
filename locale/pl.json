@@ -14,5 +14,32 @@
     "copyright": "Prawa autorskie",
     "and": "i",
     ",": ","
+  },
+  "LoginReg": {
+	"login": "Zaloguj się",
+	"loginbelow": "Zaloguj się poniżej, podając dane swojego konta",
+	"email": "E-mail",
+	"password": "Hasło",
+	"loginemail": "Zaloguj się za pomocą adresu e-mail",
+	"logingoogle": "Zaloguj się za pomocą konta Google",
+	"register": "Zarejestruj się",
+	"noacc": "Nie masz konta?",
+	"enterinfo": "Wprowadź swoje dane, aby utworzyć konto",
+	"fname": "Imię",
+	"lname": "Nazwisko",
+	"password": "Hasło",
+	"regemail": "Zarejestruj się za pomocą adresu e-mail",
+	"reggoogle": "Zarejestruj się za pomocą konta Google",
+	"haveacc": "Masz już konto?"
+  },
+  "Dashboard": {
+	"welcome": "Witamy w pomocy technicznej! Jak mogę Ci dziś pomóc?",
+	"api": "API",
+	"docu": "Dokumentacja",
+	"settings": "Ustawienia",
+	"help": "Pomoc",
+	"account": "Konto",
+	"support": "Obsługa klienta AI",
+	"configure": "Skonfiguruj ustawienia dla modelu i wiadomości."
   }
 }

@@ -14,5 +14,33 @@
     "copyright": "Copyright",
     "and": "",
     ",": "、"
+  },
+  "LoginReg": {
+	"login":"登录",
+	"loginbelow":"使用您的帐户详细信息登录",
+	"email":"电子邮件",
+	"password":"密码",
+	"loginemail":"使用电子邮件登录",
+	"logingoogle":"使用 Google 登录",
+	"register":"注册",
+	"noacc":"没有帐户？",
+	"enterinfo":"输入您的信息以创建帐户",
+	"fname":"名字",
+	"lname":"姓氏",
+	"password":"密码",
+	"regemail":"使用电子邮件注册",
+	"reggoogle":"使用 Google 注册",
+	"haveacc":"已有帐户？"
+  },
+  "Dashboard": {
+	"welcome":"欢迎使用聊天支持！我今天能为您提供什么帮助？",
+	"api":"API",
+	"docu":"文档",
+	"settings":"设置",
+	"help":"帮助",
+	"account":"帐户",
+	"support":"AI 客户支持",
+	"configure":"配置模型和消息的设置。"
+
   }
 }

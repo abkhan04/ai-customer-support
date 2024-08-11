@@ -14,5 +14,33 @@
     "copyright": "Copyright",
     "and": "y",
     ",": ","
+  },
+  "LoginReg": {
+	"login": "Iniciar sesión",
+	"loginbelow": "Inicia sesión a continuación con los datos de tu cuenta",
+	"email": "Correo electrónico",
+	"password": "Contraseña",
+	"loginemail": "Iniciar sesión con correo electrónico",
+	"logingoogle": "Iniciar sesión con Google",
+	"register": "Registrarse",
+	"noacc": "¿No tienes una cuenta?",
+	"enterinfo": "Ingresa tu información para crear una cuenta",
+	"fname": "Nombre",
+	"lname": "Apellido",
+	"password": "Contraseña",
+	"regemail": "Registrarse con correo electrónico",
+	"reggoogle": "Registrarse con Google",
+	"haveacc": "¿Ya tienes una cuenta?"
+  },
+  "Dashboard": {
+	"welcome": "¡Bienvenido a Chat Support! ¿Cómo puedo ayudarte hoy?",
+	"api": "API",
+	"docu": "Documentación",
+	"settings": "Configuración",
+	"help": "Ayuda",
+	"account": "Cuenta",
+	"support": "Atención al cliente de IA",
+	"configure": "Configura los ajustes para el modelo y los mensajes"
   }
+
 }

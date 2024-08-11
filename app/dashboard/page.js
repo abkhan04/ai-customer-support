@@ -23,6 +23,7 @@
 
 'use client';
 
+import { useTranslations } from 'next-intl';
 import { useState, useEffect } from 'react';
 import {
     Bird,
@@ -74,8 +75,10 @@ import { RiRobot2Line } from "react-icons/ri";
 import Link from "next/link";
 
 export default function Dashboard() {
+	const t = useTranslations("Dashboard");
+	
     const [messages, setMessages] = useState([
-        { role: 'assistant', content: 'Welcome to Chat Support! How can I help you today?' },
+        { role: 'assistant', content: t("welcome")},
     ]);
 
     const sendMessage = async (message) => {
@@ -134,7 +137,7 @@ export default function Dashboard() {
                                 </Button>
                             </TooltipTrigger>
                             <TooltipContent side="right" sideOffset={5}>
-                                API
+                                {t("api")}
                             </TooltipContent>
                         </Tooltip>
                         <Tooltip>
@@ -149,7 +152,7 @@ export default function Dashboard() {
                                 </Button>
                             </TooltipTrigger>
                             <TooltipContent side="right" sideOffset={5}>
-                                Documentation
+                                {t("docu")}
                             </TooltipContent>
                         </Tooltip>
                         <Tooltip>
@@ -164,7 +167,7 @@ export default function Dashboard() {
                                 </Button>
                             </TooltipTrigger>
                             <TooltipContent side="right" sideOffset={5}>
-                                Settings
+                                {t("settings")}
                             </TooltipContent>
                         </Tooltip>
                     </nav>
@@ -181,7 +184,7 @@ export default function Dashboard() {
                                 </Button>
                             </TooltipTrigger>
                             <TooltipContent side="right" sideOffset={5}>
-                                Help
+                                {t("help")}
                             </TooltipContent>
                         </Tooltip>
                         <Tooltip>
@@ -196,26 +199,26 @@ export default function Dashboard() {
                                 </Button>
                             </TooltipTrigger>
                             <TooltipContent side="right" sideOffset={5}>
-                                Account
+                                {t("account")}
                             </TooltipContent>
                         </Tooltip>
                     </nav>
                 </aside>
                 <div className="flex flex-col">
                     <header className="sticky top-0 z-10 flex h-[57px] items-center gap-1 border-b-2 bg-background px-4">
-                        <h1 className="text-xl font-semibold">AI Customer Support</h1>
+                        <h1 className="text-xl font-semibold">{t("support")}</h1>
                         <Drawer>
                             <DrawerTrigger asChild>
                                 <Button variant="ghost" size="icon" className="md:hidden">
                                     <Settings className="size-4" />
-                                    <span className="sr-only">Settings</span>
+                                    <span className="sr-only">{t("settings")}</span>
                                 </Button>
                             </DrawerTrigger>
                             <DrawerContent className="max-h-[80vh]">
                                 <DrawerHeader>
                                     <DrawerTitle>Configuration</DrawerTitle>
                                     <DrawerDescription>
-                                        Configure the settings for the model and messages.
+										{t("configure")}
                                     </DrawerDescription>
                                 </DrawerHeader>
                                 {/* <form className="grid w-full items-start gap-6 overflow-auto p-4 pt-0">

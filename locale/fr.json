@@ -14,5 +14,33 @@
     "copyright": "Copyright",
     "and": "et",
     ",": ","
+  },
+  "LoginReg": {
+	"login": "Connexion",
+	"loginbelow": "Connectez-vous ci-dessous avec les détails de votre compte",
+	"email": "E-mail",
+	"password": "Mot de passe",
+	"loginemail": "Connexion avec e-mail",
+	"logingoogle": "Connexion avec Google",
+	"register": "S'inscrire",
+	"noacc": "Vous n'avez pas de compte ?",
+	"enterinfo": "Entrez vos informations pour créer un compte",
+	"fname": "Prénom",
+	"lname": "Nom de famille",
+	"password": "Mot de passe",
+	"regemail": "S'inscrire avec e-mail",
+	"reggoogle": "S'inscrire avec Google",
+	"haveacc": "Vous avez déjà un compte ?"
+  },
+  "Dashboard": {
+	"welcome": "Bienvenue dans l'assistance par chat ! Comment puis-je vous aider aujourd'hui ?",
+	"api": "API",
+	"docu": "Documentation",
+	"settings": "Paramètres",
+	"help": "Aide",
+	"account": "Compte",
+	"support": "Assistance client AI",
+	"configure": "Configurer les paramètres du modèle et des messages."	
   }
+
 }
